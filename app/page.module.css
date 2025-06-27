@@ -166,3 +166,348 @@ a.secondary {
     filter: invert();
   }
 }
+
+.title {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.serverInfo {
+  width: 100%;
+  max-width: 700px;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.serverInfo h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.serverInfo h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.serverInfo p {
+  margin: 0.5rem 0;
+}
+
+.serverInfo ul {
+  padding-left: 1.5rem;
+}
+
+.serverInfo li {
+  margin: 0.5rem 0;
+}
+
+.timestamp {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.statsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+  width: 100%;
+  max-width: 700px;
+}
+
+.statCard {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  min-width: 140px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.statCard h3 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #0070f3;
+}
+
+.statCard p {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+}
+
+.teamSection {
+  margin: 3rem 0;
+  width: 100%;
+  max-width: 700px;
+}
+
+.teamSection h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.teamMember {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.teamMember:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.memberAvatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #0070f3;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto 1rem;
+}
+
+.teamMember h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.teamMember h4 {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #0070f3;
+}
+
+.teamMember p {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  width: 100%;
+  max-width: 700px;
+  margin-top: 2rem;
+}
+
+.card {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  border-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  opacity: 0.8;
+}
+
+.hero {
+  text-align: center;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.heroDescription {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 1.5rem 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.heroButton {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.heroButton:hover {
+  background-color: #005fc7;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 112, 243, 0.2);
+}
+
+.featuredGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem 0;
+}
+
+.featuredItem {
+  background-color: white;
+  border-left: 4px solid #0070f3;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.featuredItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.featuredItem h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.featuredItem p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Testimonials section styles */
+.testimonialsSection {
+  width: 100%;
+  max-width: 900px;
+  margin: 3rem 0;
+}
+
+.testimonialsSection h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.testimonialsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.testimonialCard {
+  background-color: white;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.testimonialCard:hover {
+  transform: translateY(-5px);
+}
+
+.quoteIcon {
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  font-size: 4rem;
+  color: rgba(0, 112, 243, 0.1);
+  font-family: serif;
+  line-height: 1;
+}
+
+.testimonialCard blockquote {
+  margin: 0 0 1.5rem;
+  font-style: italic;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonialAuthor {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 1rem;
+}
+
+.testimonialAuthor strong {
+  margin-bottom: 0.25rem;
+}
+
+.testimonialAuthor span {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Dark mode styles for testimonials */
+@media (prefers-color-scheme: dark) {
+  .testimonialCard {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .quoteIcon {
+    color: rgba(0, 112, 243, 0.2);
+  }
+
+  .testimonialAuthor {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .testimonialAuthor span {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+/* API Content container styling */
+:global(.api-content-container) {
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.02);
+  border: 1px dashed rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :global(.api-content-container) {
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px dashed rgba(255, 255, 255, 0.1);
+  }
+}
