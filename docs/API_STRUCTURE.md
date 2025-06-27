@@ -1,8 +1,40 @@
-# API-Driven SSR Structure
+# API-Driven SSR Architecture Guide
 
-This project has been refactored to use a common, reusable approach for fetching data from APIs across all pages.
+This document provides a comprehensive guide to the API-driven Server-Side Rendering (SSR) architecture implemented in this Next.js application.
 
-## Structure
+## 📋 Overview
+
+This project uses a **centralized, reusable architecture** where all page content is fetched from external APIs and rendered on the server. This approach provides:
+
+- **Consistency** across all pages
+- **Reusability** of common functionality
+- **Maintainability** through centralized configuration
+- **Scalability** for adding new pages easily
+- **Performance** through server-side rendering
+- **SEO benefits** from pre-rendered content
+
+## 🎯 Current Project Status
+
+**✅ Completed Implementation:**
+- ✅ Centralized API configuration system
+- ✅ Common data fetching utilities
+- ✅ Generic reusable page component
+- ✅ Home page converted to API-driven
+- ✅ About page converted to API-driven
+- ✅ Error handling and fallback content
+- ✅ Dynamic metadata generation
+- ✅ Navigation management
+- ✅ Documentation and examples
+
+**📊 Current Pages:**
+- **Home Page** (`/`) - Fetches from `/api/home`
+- **About Page** (`/about`) - Fetches from `/api/about`
+
+**🔧 API Server Configuration:**
+- **Base URL:** `http://localhost:3002`
+- **Expected Response Format:** JSON with `html`, `css`, `title`, `description`, and `metadata` fields
+
+## 🏗️ Architecture Components
 
 ### `/lib/api-config.js`
 Contains all API configuration including:
